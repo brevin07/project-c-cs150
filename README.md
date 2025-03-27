@@ -52,7 +52,7 @@ The dashboard integrates 9 datasets from two primary sources:
 - **Kaggle:**  
   Website: [https://www.kaggle.com/](https://www.kaggle.com/)  
   Dataset License: CC0: Public Domain
-  Attribution: Provided by [Prasad Patil] on Kaggle under CC0: Public Domain license
+  Attribution: Provided by Prasad Patil on Kaggle under CC0: Public Domain license
 
 These datasets were selected because together they offer a comprehensive view of the cost of living challenges in Southern California, providing both income and expense perspectives.
 
@@ -75,7 +75,7 @@ To ensure that the visualization is both effective and engaging, the following s
 - **Multiple Visualizations:**  
   Two main visualizations are provided:  
   1. A line graph showing annual costs, median income, and a dynamic "Selected Salary" (which, if a career is chosen, displays the salary trend over the years).  
-  2. A yearly summary bar graph that compares the average data salary, user-selected salary, and combined expenses for a selected year.
+  2. A yearly summary bar graph that compares the average annual salary from the data, user-selected salary, and combined expenses for a selected year.
 
 ## Example Scenarios
 
