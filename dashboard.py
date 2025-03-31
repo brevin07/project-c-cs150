@@ -6,8 +6,7 @@ import plotly.graph_objs as go
 import pandas as pd
 
 from cards import (info_card, county_card, career_card, buttons_card, salary_slider_card)
-from variables_and_helper_methods import (INTEREST_RATE_MONTHLY, INTEREST_RATE_ANNUAL, INSURANCE, MILES_PER_MONTH,
-                                          PROPERTY_TAX, MONTHS, MPG, KWH_PER_MONTH, monthly_mortgage, monthly_gas_cost,
+from variables_and_helper_methods import (monthly_mortgage, monthly_gas_cost,
                                           monthly_elec_cost, monthly_healthcare_cost, load_csv)
 
 # Create the app variable
@@ -29,18 +28,18 @@ job_salary_data = {
 # CSV Paths
 # =============================================================================
 
-PATH_MEDIAN_INCOME_LA = r"C:\Users\brevi\PycharmProjects\CS150\project-c-cs150\data\median_income\median_income_LA_county.csv"
-PATH_MEDIAN_INCOME_OC = r"C:\Users\brevi\PycharmProjects\CS150\project-c-cs150\data\median_income\median_income_OC.csv"
-PATH_MEDIAN_INCOME_VC = r"C:\Users\brevi\PycharmProjects\CS150\project-c-cs150\data\median_income\median_income_ventura_county.csv"
+PATH_MEDIAN_INCOME_LA = r"data\median_income\median_income_LA_county.csv"
+PATH_MEDIAN_INCOME_OC = r"data\median_income\median_income_OC.csv"
+PATH_MEDIAN_INCOME_VC = r"data\median_income\median_income_ventura_county.csv"
 
-PATH_LISTING_LA = r"C:\Users\brevi\PycharmProjects\CS150\project-c-cs150\data\housing\avg_house_listing_price_LA_county.csv"
-PATH_LISTING_OC = r"C:\Users\brevi\PycharmProjects\CS150\project-c-cs150\data\housing\avg_house_listing_price_OC.csv"
-PATH_LISTING_VC = r"C:\Users\brevi\PycharmProjects\CS150\project-c-cs150\data\housing\avg_housing_listing_ventura_county.csv"
+PATH_LISTING_LA = r"data\housing\avg_house_listing_price_LA_county.csv"
+PATH_LISTING_OC = r"data\housing\avg_house_listing_price_OC.csv"
+PATH_LISTING_VC = r"data\housing\avg_housing_listing_ventura_county.csv"
 
-PATH_ELEC_LA = r"C:\Users\brevi\PycharmProjects\CS150\project-c-cs150\data\household_goods_services_etc\electricity\avg_elec_price_LA_LB_ANHM.csv"
-PATH_GAS_LA = r"C:\Users\brevi\PycharmProjects\CS150\project-c-cs150\data\household_goods_services_etc\gas\avg_price_gas_LA_LB_ANHM_reg.csv"
+PATH_ELEC_LA = r"data\household_goods_services_etc\electricity\avg_elec_price_LA_LB_ANHM.csv"
+PATH_GAS_LA = r"data\household_goods_services_etc\gas\avg_price_gas_LA_LB_ANHM_reg.csv"
 
-PATH_HEALTHCARE = r"C:\Users\brevi\PycharmProjects\CS150\project-c-cs150\data\household_goods_services_etc\healthcare\healthcare_dataset.csv"
+PATH_HEALTHCARE = r"data\household_goods_services_etc\healthcare\healthcare_dataset.csv"
 
 
 def load_county_data(county):
